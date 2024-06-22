@@ -45,4 +45,4 @@ Users should be able to:
 
 - Website - [Isaac Makinde](https://www.github.com/Oluwa-Laughter)
 - Frontend Mentor - [Oluwa-Laughter](https://www.frontendmentor.io/profile/Oluwa-Laughter)
-- Twitter - [isaacmakinde\_](https://www.twitter.com/isaacmakinde_
+- Twitter - [isaacmakinde\_](https://www.twitter.com/isaacmakinde_)
