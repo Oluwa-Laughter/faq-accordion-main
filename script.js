@@ -1,11 +1,23 @@
 "use-strict";
-const faqContainer = document.querySelector(".faq-container");
-const openAccBtn = document.querySelector(".");
-const closeAccBtn = document.querySelector(".");
 
-const openAccordion = function () {};
+const faqContainer = document.querySelectorAll(".faq-container");
+const faq = document.querySelectorAll(".faq");
 
-const closeAccordion = function () {};
-faqContainer.addEventListener("click", openAccordion);
+faq.forEach((click) => {
+  click.addEventListener("click", () => {
+    const btnOpen = click.querySelector(".open-btn");
+    const btnClose = click.querySelector(".close-btn");
 
-faqContainer.addEventListener("click", closeAccordion);
+    btnOpen.classList.toggle("hidden");
+    btnClose.classList.toggle("hidden");
+  });
+});
+
+faqContainer.forEach((click) => {
+  const faq = click.querySelector(".faq");
+  const answer = click.querySelector(".answer");
+
+  faq.addEventListener("click", () => {
+    answer.classList.toggle("hidden");
+  });
+});
